@@ -3,25 +3,25 @@ This project has demo of retrofit with mvvm architecture
 
 **Project has implementation of the concepts below** 
 
-*  Communicating with a webservice (rest api) using Retrofit2
-*  MVVM Architecture: ViewModel, Repository, Client structure
-*  How to design an architecture
-*  Singletons
-*  Custom Loading Animation ProgressBar in Recyclerview
-*  ViewModels and AndroidViewModels
-*  Multiple View Types in a Recyclerview
-*  RecyclerView Pagination
-*  Building Custom Toolbars
-*  Customizing Toolbar Behaviors with CoordinatorLayout and AppBarLayout
-*  Observables, LiveData, MutableLiveData and MediatorLiveData
-*  Displaying Images using Glide
-*  CardViews
-*  SearchViews
-*  Menus
-*  Passing data between activities using intent extras
-*  Executors and Background Threads
-*  ThreadPools
-*  Network Security Config for HTTP (API 28+)
+- [x]  Communicating with a webservice (rest api) using Retrofit2
+- [x]  MVVM Architecture: ViewModel, Repository, Client structure
+- [x]  How to design an architecture
+- [x]  Singletons
+- [x]  Custom Loading Animation ProgressBar in Recyclerview
+- [x]  ViewModels and AndroidViewModels
+- [x]  Multiple View Types in a Recyclerview
+- [x]  RecyclerView Pagination
+- [x]  Building Custom Toolbars
+- [x] Customizing Toolbar Behaviors with CoordinatorLayout and AppBarLayout
+- [x]  Observables, LiveData, MutableLiveData and MediatorLiveData
+- [x]  Displaying Images using Glide
+- [x]  CardViews
+- [x]  SearchViews
+- [x]  Menus
+- [x]  Passing data between activities using intent extras
+- [x]  Executors and Background Threads
+- [x]  ThreadPools
+- [x]  Network Security Config for HTTP (API 28+)
 
 
 **Architecture representation of the project**
