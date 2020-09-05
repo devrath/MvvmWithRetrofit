@@ -61,6 +61,8 @@ dependencies {
 
     // -- Lifecycle Components (ViewModel, LiveData and ReactiveStreams)
     def lifecycle_version = "2.2.0"
+    def lifecycleExtension_version = "1.1.1"
     implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    implementation "android.arch.lifecycle:extensions:$lifecycleExtension_version"
 
 }
