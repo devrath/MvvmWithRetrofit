@@ -1,6 +1,10 @@
 # MvvmWithRetrofit
 This project has demo of retrofit with mvvm architecture
 
+![kotlin](https://img.shields.io/badge/Kotlin-language-blue)
+![architecture](https://img.shields.io/badge/mvvm-architecture-green)
+![endpoint](https://img.shields.io/badge/EndPoint-API-orange)
+
 **Project has implementation of the concepts below** 
 
 - [x]  Communicating with a webservice (rest api) using Retrofit2
