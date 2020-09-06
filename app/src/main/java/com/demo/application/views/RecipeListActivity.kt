@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.view.WindowManager
+import android.widget.SearchView
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.demo.application.R
 import com.demo.application.adapters.RecipeRecyclerAdapter
 import com.demo.application.base.BaseActivity
 import com.demo.application.databinding.ActivityMainBinding
@@ -25,6 +27,7 @@ class RecipeListActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.toolbar.setTitle(resources.getString(R.string.app_name))
         mRecipeListViewModel = ViewModelProviders.of(this).get(RecipeListViewModel::class.java)
         subscribeObservers()
         testRetrofitRequest()
