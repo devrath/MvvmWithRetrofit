@@ -25,4 +25,5 @@ This project has demo of retrofit with mvvm architecture. We are calling a web s
 
 
 **Snapshot of demo**
+
 ![snapshot](https://github.com/devrath/MvvmWithRetrofit/blob/master/snapshot.png)
