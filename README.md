@@ -22,3 +22,7 @@ This project has demo of retrofit with mvvm architecture. We are calling a web s
 **Architecture representation of the project**
 
 ![Image of mvvm](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
+
+
+**Snapshot of demo**
+![snapshot](https://github.com/devrath/MvvmWithRetrofit/blob/master/snapshot.png)
