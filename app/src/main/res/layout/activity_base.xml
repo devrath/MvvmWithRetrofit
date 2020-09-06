@@ -4,28 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ProgressBar
-        android:id="@+id/progressbar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/white"
-        android:indeterminateTint="@color/color_progress"
-        android:max="100"
-        android:visibility="invisible"
-        android:indeterminate="true"
-        android:layout_marginTop="-7dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
-
 
     <FrameLayout
         android:id="@+id/activity_content"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/base_container_height"
+        android:layout_height="match_parent"
         android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressbar">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
     </FrameLayout>
 
